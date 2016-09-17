@@ -53,8 +53,9 @@ hr {
     letter-spacing: 3px;
 }
 
-.img-full {
-    min-width: 100%;
+.img-center {
+    min-width: 50%;
+    float: none;
 }
 
 .brand-before,
@@ -123,7 +124,7 @@ footer p {
         font-size: 5em;
         font-weight: 700;
         line-height: normal;
-        color: #fff;
+        color: black;
     }
 
     .top-divider {
@@ -145,7 +146,7 @@ footer p {
         font-size: 1.25em;
         font-weight: 400;
         letter-spacing: 3px;
-        color: #fff;
+        color: grey;
     }
 
     .navbar {
@@ -161,10 +162,11 @@ footer p {
         border: none;
         background: #fff;
         background: rgba(255,255,255,0.75);
+        max-height: 75px;
     }
 
     .nav>li>a {
-        padding: 35px;
+        padding: 10px;
     }
 
     .navbar-nav>li>a {
